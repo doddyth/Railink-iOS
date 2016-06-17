@@ -1,0 +1,43 @@
+PODS:
+  - IQKeyboardManagerSwift (4.0.3)
+  - R.swift (2.3.0):
+    - R.swift.Library (~> 2.1.0)
+  - R.swift.Library (2.1.0)
+  - Realm (1.0.0):
+    - Realm/Headers (= 1.0.0)
+  - Realm/Headers (1.0.0)
+  - RealmSwift (1.0.0):
+    - Realm (= 1.0.0)
+  - RxSwift (2.5.0)
+  - SegueManager (2.1.0):
+    - SegueManager/iOS (= 2.1.0)
+    - SegueManager/OSX (= 2.1.0)
+    - SegueManager/R.swift (= 2.1.0)
+  - SegueManager/iOS (2.1.0)
+  - SegueManager/R.swift (2.1.0):
+    - R.swift.Library
+    - SegueManager/iOS
+  - Swinject (1.1.2)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift (= 4.0.3)
+  - R.swift
+  - RealmSwift (= 1.0.0)
+  - RxSwift (= 2.5.0)
+  - SegueManager
+  - SegueManager/R.swift
+  - Swinject (= 1.1.2)
+
+SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: b6883b720b0e76473692fdc80828442566e1075f
+  R.swift: 38b2191a603c3d491a09baddfb4ccc7aa9be4d9d
+  R.swift.Library: e5e077ed04f6867a95676af491650091b23518e9
+  Realm: e15cd8e7c11d3e576f628ba0b7cb855269b4991c
+  RealmSwift: 3229306d020d96f83b335f87a0dcbf2cef0e6a2b
+  RxSwift: 402b41a50e922a0368fc14cb3bc9f4427920e8ae
+  SegueManager: 07a64c4e8cd814b3e0f564ab838777af75951a29
+  Swinject: 3debc5ac926dcd1be00947265a9db7a5f31b272a
+
+PODFILE CHECKSUM: df8228afe91801ccc77823c5bd4e0b7c45453bf4
+
+COCOAPODS: 1.0.1
