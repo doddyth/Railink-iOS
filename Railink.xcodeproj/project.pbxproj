@@ -91,6 +91,53 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CE0216EE1D1507D7003519AF /* Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				CE0216EF1D150806003519AF /* Views */,
+			);
+			name = Adapters;
+			sourceTree = "<group>";
+		};
+		CE0216EF1D150806003519AF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE2E4FF81D144ECB002F4D72 /* FirstViewController.swift */,
+				CE2E4FFA1D144ECB002F4D72 /* SecondViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CE0216F01D150833003519AF /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CE2E50011D144ECB002F4D72 /* LaunchScreen.storyboard */,
+				CE2E4FFC1D144ECB002F4D72 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		CE0216F11D150864003519AF /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		CE0216F21D15086A003519AF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		CE0216F31D150889003519AF /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Interactors;
+			sourceTree = "<group>";
+		};
 		CE2E4FEA1D144ECA002F4D72 = {
 			isa = PBXGroup;
 			children = (
@@ -116,12 +163,13 @@
 		CE2E4FF51D144ECB002F4D72 /* Railink */ = {
 			isa = PBXGroup;
 			children = (
+				CE0216F31D150889003519AF /* Interactors */,
+				CE0216F21D15086A003519AF /* ViewModels */,
+				CE0216F11D150864003519AF /* Entities */,
+				CE0216F01D150833003519AF /* Storyboards */,
+				CE0216EE1D1507D7003519AF /* Adapters */,
 				CE2E50261D145365002F4D72 /* App */,
-				CE2E4FF81D144ECB002F4D72 /* FirstViewController.swift */,
-				CE2E4FFA1D144ECB002F4D72 /* SecondViewController.swift */,
-				CE2E4FFC1D144ECB002F4D72 /* Main.storyboard */,
 				CE2E4FFF1D144ECB002F4D72 /* Assets.xcassets */,
-				CE2E50011D144ECB002F4D72 /* LaunchScreen.storyboard */,
 				CE2E50041D144ECB002F4D72 /* Info.plist */,
 			);
 			path = Railink;
